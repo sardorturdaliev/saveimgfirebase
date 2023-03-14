@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633946930648",
+    "project_id": "imguploaded-afb73",
+    "storage_bucket": "imguploaded-afb73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633946930648:android:0c7843431040dbb04286ad",
+        "android_client_info": {
+          "package_name": "com.sardordev.uploaded"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633946930648-4qq7m0m0o8ovch17heh3qe0cm8nh9k3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS-GKzZTd4OmEhHwE7W-77kJmBX5hfQeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633946930648-4qq7m0m0o8ovch17heh3qe0cm8nh9k3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
