@@ -53,14 +53,12 @@ class MainActivity : AppCompatActivity() {
                     storageRef.downloadUrl.addOnSuccessListener { url ->
                         val map = HashMap<String, Any>()
                         map["pic"] = url.toString()
-                        firebaseFirestone.collection("images").add(map)
-                            .addOnCompleteListener { firestoreTask ->
+                        firebaseFirestone.collection("images").add(map).addOnCompleteListener { firestoreTask ->
                                 if (firestoreTask.isSuccessful) {
                                     Toast.makeText(this, "Uploaded", Toast.LENGTH_SHORT).show()
                                     binding.progressbar.isVisible = false
                                 } else {
-                                    Toast.makeText(this, "Uploaded Error", Toast.LENGTH_SHORT)
-                                        .show()
+                                    Toast.makeText(this, "Uploaded Error", Toast.LENGTH_SHORT).show()
                                     binding.progressbar.isVisible = false
                                 }
                             }
